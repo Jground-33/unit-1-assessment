@@ -19,6 +19,8 @@ decrementBtn.addEventListener('click', function() {
 });
 
 
+input.value = 1; 
+
 render()
 function render() {
     if(initCount < 0) counter.style.color = "red"
